@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Talaga Bodas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="224dp"
+        android:id="@id/image"
+        android:src="@drawable/talagabodas"
+        android:layout_weight="0.30" />
+
+    <TextView
+        android:text="Objek wisata Talaga Bodas merupakan sebuah danau kecil atau talaga yang terbentuk dibekas kawah gunung Talaga Bodas. Kawahnya sendiri masih mempunyai aktivitas vulkanik namun sudah tidak berbahaya dan aman dikunjungi. lokasi kawah Talaga Bodas terletak sekitar28 KM dari Garut Kota. Air di sini suka dimanfaatkan sebagai sumber air panas dan pengobatan oleh masyarakat sekitar Garut atau luar Garut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView5"
+        android:elevation="0dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:fontFamily="casual" />
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Pantai Santolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="244dp"
+        android:id="@id/image"
+        android:src="@drawable/santolo"
+        android:layout_weight="0.09" />
+
+    <TextView
+        android:text="Pantai Santolo adalah sebuah pantai yang terletak di Kecamatan Cikelet, Kabupaten Garut, Jawa Barat, Indonesia. Jarak dari kota Garut kota ke pantai Santolo sekitar 80 KM dengan perjalananan darat kurang lebih 3,5 jam. Harga tiket masuk : Rp. 3500/Orang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView4"
+        android:elevation="0dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:fontFamily="casual" />
+</LinearLayout>

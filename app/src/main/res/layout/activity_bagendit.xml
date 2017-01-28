@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Situ Bagendit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="224dp"
+        android:id="@id/image"
+        android:src="@drawable/bagendit"
+        android:layout_weight="0.30" />
+
+    <TextView
+        android:text="Situ Bagendit terletak di desa Bagendit, kecamatan Banyuresmi Kabupaten Garut. Situ Bagendit merupakan objek wisata alam berupa danau, aktivitas yang dapat dilakukan disana antara lain menikmati pemandangan, menglilingi danau dengan menggunakan rakit atau perahu. Harga masuk tiket ke kawasan ini yaitu dibawah Rp.10000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView6"
+        android:elevation="0dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:fontFamily="casual" />
+
+</LinearLayout>

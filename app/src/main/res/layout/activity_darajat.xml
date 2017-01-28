@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <TextView
+        android:text="Darajat Pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:fontFamily="casual"
+        android:textSize="18sp"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="224dp"
+        android:id="@id/image"
+        android:src="@drawable/darajat"
+        android:layout_weight="0.30" />
+
+    <TextView
+        android:text="Obejek wisata Darajat Pass beralamatkan di Jl. Darajat KM.14, Kampung Bedeng RT/RW 09/02, Desa Karyamekar, Kecamatan Pasir Wangi, Kabupaten Garut, Jawa Barat. Kawasan Darajat dikenal sebagai salah satu lokasi pembangkit listrik tenaga panas bumi di Jawa Barat ini. Wisata yang terdapat di tempat ini yaitu ada kolam air panas alamai yang cukup bersih langsung dari sumbernya, villa penginapan dan menikmati pemandangan yang masih asri."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView7"
+        android:elevation="0dp"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:fontFamily="casual" />
+</LinearLayout>

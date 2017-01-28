@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/login"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="lat.sttg.informatika.UAS_WISATA.MainActivity">
+
+
+    <Button
+        android:text="Situ Bagendit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Bagendit"
+        android:layout_above="@+id/Talagabodas"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Pantai Santolo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Santolo"
+        android:layout_above="@+id/Bagendit"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Darajat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Darajat"
+        android:layout_above="@+id/Papandaian"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Gunung Papandaian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Papandaian"
+        android:layout_above="@+id/Santolo"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="Talaga Bodas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Talagabodas"
+        android:layout_marginBottom="62dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
